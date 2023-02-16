@@ -1,0 +1,168 @@
+/* ACA VAN LOS ESTILOS DE LAS CARD DE SERVICIOS
+DISPONIBILIDAD - RESPALDO - ASISTENCIA - GARANTIA */
+
+/* TAMBIEN SE UTILIZAN PARA DAR ESTILO A LAS CARD DE LA PAGINA HIPOTECA 
+( ADQUISICION - REFINANCIAMIENTO - CONSTRUCCION - LIQUIDEZ ) */
+
+/* TAMBIEN PARA PUBLICAGRATIS= ( 2.9 MILLONES - 542MIL - + 5MIL )*/
+
+.cardmotivosTuvivienda {
+    text-align: justify;
+    margin-top: 4rem;
+    margin-bottom: 13rem;
+}
+
+.parrafomotivosTuvivienda {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-top: 1.2rem;
+}
+
+i {
+    font-size: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.hdosServ {
+    text-align: center;
+    font-size: 2rem;
+}
+
+/* HASTA ACA V*/
+
+/* ESTILOS CARDS LINEA DE 4 Y LINEA DE 2 */
+
+.card-title{
+    margin-top: 1.5rem;
+}
+
+.cardPromo {
+    text-align: center;
+    padding: 0px;
+    margin: 3.7rem 3rem 6rem 3rem;
+    
+}
+
+div {
+    div {
+        img {
+            height: 45rem;
+            
+        }
+    }
+}
+
+/*ESTILOS CARD LINEA DE 4*/
+
+section {
+    div {
+        img {
+            width: 16rem;
+            height: 25rem;
+        }
+    }
+}
+
+/* ESTILOS CARD DESARROLLOS */
+
+
+.carDdesa {
+    text-align: center;
+    padding: 0px;
+    margin: 4rem;
+}
+
+.preCio {
+    font-weight: bold;
+    font-size: 2.2rem;
+    margin: 0.5rem;
+}
+
+.tiPs {
+    justify-content: center;
+}
+
+.tipsCompradesa {
+    margin-left: 3rem;
+}
+
+.titTips {
+    margin-bottom: 4.5rem;
+    margin-top: 10rem;
+}
+
+.cardTips {
+    padding: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+/* ESTILOS DE HIPOTECA HTML */
+
+
+.headHipo {
+    text-align: center;
+}
+
+.nuestProce {
+    padding: 1rem;
+    margin: auto;
+}
+
+.titNuepro {
+    margin-bottom: 2rem;
+    margin-top: 5rem; 
+}
+
+.nueprocHipoade {
+    margin: 3rem;
+}
+
+/* ACA VAN LOS ESTILOS PARA BLOG.HTML */
+
+/* ESTILOS DE LOS COMPONENTES DE LAS NOTICIAS*/
+
+.imagenesnoticiasBlog {
+    width: 85%;
+    height: 85%;
+    display: block;
+    margin: auto;
+    margin-bottom: 7rem;
+    
+}
+.titulonoticiasBlog {
+    text-align: justify;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    font-weight: bolder;
+    font-size: 3.2rem;
+    margin: 7rem;
+    padding: 1.5rem;
+}
+.subtitulonoticiasBlog {
+    text-align: justify;
+    font-weight: bold;
+    font-size: 2.1rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.parrafonoticiasBlog {
+    text-align: justify;
+    font-size: 1.9rem;
+    margin-top: 3rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+/* ACA VAN LOS ESTILOS PARA PUBLICAGRATIS.HTML */
+
+/* IMAGEN DE PORTADA DE PAGINA*/
+.imagenportadaPublicagratis{
+    width: 75%;
+    height: 50%;
+    display: block;
+    margin: auto;
+}

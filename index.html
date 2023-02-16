@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Vivienda Nueva</title>
+    <link rel="icon" type="image/png" href="./imagenes/logofavicon-tunuevavivienda.png">
+
+
+    <!-- GOOGLE FONTS -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <!-- BOOTSTRAP -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <!-- ESTILO CSS -->
+
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body class="container-fluid">
+
+    <!-- ACA ESTÁ LA NAVBAR -->
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="imGnav" href="index.html">
+                <img src="./imagenes/logo--pelado.png" alt="logo-tunuevavivienda" width="250" height="65">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav navBar">
+
+                    <li class="nav-item navBar">
+                        <a class="nav-link" href="./index.html">Inicio</a>
+                    </li>
+
+                    <li class="nav-item  navBar">
+                        <a class="nav-link" href="./html/desarrollos.html">Desarrollos</a>
+                    </li>
+
+                    <li class="nav-item navBar">
+                        <a class="nav-link" href="./html/hipoteca.html">Hipotecas</a>
+                    </li>
+
+                    <li class="nav-item navBar">
+                        <a class="nav-link" href="./html/blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item navBar">
+                        <a class="nav-link" href="./html/publicagratis.html">Publicar Gratis</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ACA TENEMOS EL CARROUSEL-->
+
+    <div id="carouselExampleIndicators" class="carousel slide car">
+
+        <!-- aca tenemos los indicadores de en que pantalla estamos-->
+
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+
+        <!-- aca tenemos las imagenes del carrousel-->
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./imagenes/carruzel-edificio.avif" class="d-block w-100" alt="foto del edificio">
+            </div>
+            <div class="carousel-item">
+                <img src="./imagenes/carruzel-ventanas-techo.avif" class="d-block w-100" alt="foto de las ventanas">
+            </div>
+            <div class="carousel-item">
+                <img src="./imagenes/casas oxford--carruzel-pelado.jpg" class="d-block w-100"
+                    alt="foto de casas oxford">
+            </div>
+        </div>
+
+        <!-- aca tenemos los indicadores para adelantar y retroceder img carrousel-->
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
+
+
+
+    <!-- HEADER-->
+
+    <header>
+        <h1 class="titulosh1Global">
+            ¿Por qué elegir Tu vivienda nueva?
+        </h1>
+    </header>
+
+    <main>
+        <section>
+            <!--------------------- SERVICIOS --------------------->
+            <div>
+                <div>
+                    <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-xl-4 g-4 py-5">
+
+                        <!--------------------- DISPONIBILIDAD --------------------->
+
+                        <div class="col d-flex align-items-center">
+
+                            <div class="cardmotivosTuvivienda">
+                                <i class="bi bi-calendar-date-fill"></i>
+                                <h2 class="fw-bold mb-0 fs-2 hdosServ">DISPONIBILIDAD</h2>
+                                <p class="parrafomotivosTuvivienda">Encuentra la mayor oferta de vivienda nueva en la
+                                    ciudad.</p>
+                            </div>
+                        </div>
+
+                        <!--------------------- RESPALDO --------------------->
+
+                        <div class="col d-flex align-items-center">
+
+                            <div class="cardmotivosTuvivienda">
+                                <i class="bi bi-lock-fill"></i>
+                                <h2 class="fw-bold mb-0 fs-2 hdosServ">RESPALDO</h2>
+                                <p class="parrafomotivosTuvivienda">Evaluamos exhaustivamente nuestra oferta para que
+                                    compres con la
+                                    mayor
+                                    tranquilidad.</p>
+                            </div>
+                        </div>
+
+
+                        <!--------------------- ASISTENCIA --------------------->
+
+
+                        <div class="col d-flex align-items-center">
+
+                            <div class="cardmotivosTuvivienda">
+                                <i class="bi bi-person-fill"></i>
+                                <h2 class="fw-bold mb-0 fs-2 hdosServ">ASISTENCIA</h2>
+                                <p class="parrafomotivosTuvivienda">Te damos toda la informacíon de nuestros expertos y
+                                    aliados para que
+                                    tomes
+                                    la mejor desicíon.</p>
+                            </div>
+                        </div>
+
+                        <!--------------------- GARANTIA --------------------->
+
+                        <div class="col d-flex align-items-center">
+
+                            <div class="cardmotivosTuvivienda">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <h2 class="fw-bold mb-0 fs-2 hdosServ">GARANTIA</h2>
+                                <p class="parrafomotivosTuvivienda">Garantizamos que tus inmuebles se renten más Rápido.
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section>
+
+            <!----------- CARD NUMERO 1 ------------->
+            <div class="row d-flex justify-content-center">
+
+
+                <div class="card col-xl-3x col-md-6 col-sm-12 cardPromo" style="width: 28rem;">
+                    <img src="./imagenes/carruzel-edificio.avif" class="card-img" alt="carruzel-edificio">
+                    <div>
+                        <h3 class="card-title"> ¿Qué necesito Para comprar? </h3>
+                        <a href="#" class="btn btn-primary fs-4 m-4 ">Guía de Compra</a>
+                    </div>
+                </div>
+
+                <!----------- CARD NUMERO 2 ------------>
+
+                <div class="card col-xl-3 col-md-6 col-sm-12 cardPromo" style="width: 28rem;">
+                    <img src="./imagenes/carruzel-ventanas-techo.avif" class="card-img-top" alt="carruzel-ventanasdeltecho">
+                    <div>
+                        <h4 class="card-title">¿Qué voy a necesitar para rentar?</h4>
+                        <a href="#" class="btn btn-primary fs-4 m-4">Guía de Renta</a>
+                    </div>
+                </div>
+
+                <!------------- CARD NUMERO 3 ------------->
+
+
+                <div class="card col-xl-3 col-md-6 col-sm-12 cardPromo" style="width: 28rem;">
+                    <img src="./imagenes/edificio-3.jpeg" class="card-img-top" alt="imagenedificio3">
+                    <div>
+                        <h4 class="card-title"> ¿Cúales son los Requisitos para vender? </h4>
+                        <a href="#" class="btn btn-primary fs-4 m-4">Guía de Venta</a>
+                    </div>
+                </div>
+
+                <!------------- CARD NUMERO 4 ------------->
+
+
+                <div class="card col-xl-3 col-md-6 col-sm-12 cardPromo" style="width: 28rem;">
+                    <img src="./imagenes/edificio-5.avif" class="card-img-top" alt=imagenedificio5">
+                    <div>
+                        <h4 class="card-title"> ¿Que necesito Para registrate? </h4>
+                        <a href="#" class="btn btn-primary fs-4 m-4">Guía de Registro</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section>
+            <div class="row d-flex justify-content-center ">
+
+                <div class="card col-xl-6 col-md-6 col-sm-12 cardPromo text-start" style="width: 60rem;">
+                    <img src="./imagenes/edificio-4.avif" class="card-img-top" alt="imagenedificio4">
+                    <div class="card-body">
+                        <h3 class="card-title text-start"> Tu vivienda nueva para desarrolladores </h3>
+                        <a href="#" class="btn btn-primary fs-4 m-4">Guía de Registro</a>
+                    </div>
+                </div>
+
+                <div class="card col-xl-6 col-md-6 col-sm-12 cardPromo text-start" style="width: 60rem;">
+                    <img src="./imagenes/edificio-3.jpeg" class="card-img-top" alt="imagenedificio3">
+                    <div class="card-body">
+                        <h3 class="card-title text-start"> ¿Que necesito Para registrate? </h3>
+                        <a href="#" class="btn btn-primary fs-4 m-4">Guía de Registro</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--------------------- ACA HAY UN FOOTER --------------------->
+
+    <footer>
+        <h6>
+            Todos los derechos reservados para la republica mexicana.
+            instagram: tuvivienda nueva
+            facebook: tuviviendanueva
+        </h6>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

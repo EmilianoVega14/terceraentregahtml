@@ -1,0 +1,43 @@
+/* ACA COMIENZA EL HEADER.CSS*/
+
+/* MIXIN */
+@mixin titulosh1 {
+    font-size: 3.5rem;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 5rem;
+}
+
+@mixin subtitulosh2{
+    font-size: 2rem;
+    text-align: center;
+    color: $color_subtitulo;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 6rem;
+}
+
+/* NAV BAR */
+
+.imGnav {
+    margin-top: 1rem;
+    margin-bottom: 3.1rem;
+}
+
+.navBar {
+    padding: 1rem;
+    margin: 0.6rem 3rem 1rem 3rem;
+    font-size: 2.2rem;
+}
+
+/* ACA VA EL ESTILO DE LOS H1 y H2 */
+
+.titulosh1Global {
+    @include titulosh1;
+}
+
+.subtitulosh2Global {
+    @include subtitulosh2;
+}
+
+/* ACA TERMINA EL HEADER.SCSS*/

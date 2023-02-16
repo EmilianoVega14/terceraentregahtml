@@ -1,0 +1,16 @@
+/* AQUI EMPIEZA BASE.SCSS*/
+
+/* AQUI VA LA FUENTE DE GOOGLE*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/* ESTILOS GENERALES 2 */
+
+$fuente-google: 'Roboto', sans-serif;
+
+html {
+	font-size: 62.5%;
+}
+body {
+	font-family: $fuente-google;
+	overflow-x: hidden;
+}
